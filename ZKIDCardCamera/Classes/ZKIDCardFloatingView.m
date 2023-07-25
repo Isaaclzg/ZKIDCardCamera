@@ -24,6 +24,7 @@
 @property (nonatomic, strong) CAShapeLayer *IDCardWindowLayer;
 @property (nonatomic, strong) NSBundle *resouceBundle;
 @property (nonatomic, assign) ZKIDCardType type;
+@property (nonatomic, strong) UIImageView *imageView;
 
 @end
 
@@ -81,11 +82,11 @@
     }
     
     // 国徽、头像
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
-    imageView.transform = CGAffineTransformMakeRotation(M_PI * 0.5);
-    imageView.contentMode = UIViewContentModeScaleAspectFill;
-    [self addSubview:imageView];
-    [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
+    self.imageView = [[UIImageView alloc] initWithImage:image];
+    self.imageView.transform = CGAffineTransformMakeRotation(M_PI * 0.5);
+    self.imageView.contentMode = UIViewContentModeScaleAspectFill;
+    [self addSubview:self.imageView];
+    [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         if (self.type == ZKIDCardTypeFront) {
             make.centerX.equalTo(self);
             make.centerY.equalTo(self).offset(CGRectGetHeight(self.IDCardWindowLayer.frame)/2.f - facePathWidth/2.f - 30);
@@ -106,6 +107,11 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     // Drawing code
+}
+
+- (CGSize)getImageSize {
+    [self layoutIfNeeded];
+    return self.IDCardWindowLayer.frame.size;
 }
 
 #pragma mark - getters and setters

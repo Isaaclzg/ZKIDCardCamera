@@ -65,6 +65,8 @@
 
 @property (nonatomic, assign) ZKIDCardType type;
 
+@property (nonatomic, strong) ZKIDCardFloatingView *IDCardFloatingView;
+
 @end
 
 @implementation ZKIDCardCameraController
@@ -163,7 +165,11 @@
 #pragma mark - events Handler
 
 - (void)takePhotoAgain {
-    [self.session startRunning];
+    dispatch_queue_t backgroundQueue = dispatch_queue_create("com.isaac.zkid", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_async(backgroundQueue, ^{
+        [self.session startRunning];
+    });
+
     [self.imageView removeFromSuperview];
     self.imageView = nil;
     
@@ -200,10 +206,21 @@
         
         __strong __typeof(weakSelf) strongSelf = weakSelf;
         NSData * imageData = [AVCaptureStillImageOutput jpegStillImageNSDataRepresentation:imageDataSampleBuffer];
-        strongSelf.image = [UIImage imageWithData:imageData];
-        [strongSelf.session stopRunning]; // 停止会话
+        UIImage *image = [UIImage imageWithData:imageData];
+        strongSelf.image = image;
+        // 停止会话
+        [strongSelf.session stopRunning];
         
-        strongSelf.imageView = [[UIImageView alloc] initWithFrame:strongSelf.previewLayer.frame];
+        CGSize size = [self.IDCardFloatingView getImageSize];
+
+        CGFloat imageViewX = ([UIScreen mainScreen].bounds.size.width - size.width) / 2.0f;
+        CGFloat imageViewY = ([UIScreen mainScreen].bounds.size.height - size.height) / 2.0f;
+        CGFloat imageViewW = size.width;
+        CGFloat imageViewH = size.height;
+        
+        strongSelf.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(imageViewX, imageViewY, imageViewW, imageViewH)];
+
+        // strongSelf.imageView = [[UIImageView alloc] initWithFrame:strongSelf.previewLayer.frame];
         [strongSelf.view insertSubview:self.imageView belowSubview:sender];
         strongSelf.imageView.layer.masksToBounds = YES;
         strongSelf.imageView.image = self.image;
@@ -325,7 +342,11 @@
     self.previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
     [self.view.layer addSublayer:self.previewLayer];
     
-    [self.session startRunning]; // 开始启动
+    dispatch_queue_t backgroundQueue = dispatch_queue_create("com.isaac.zkid", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_async(backgroundQueue, ^{
+        [self.session startRunning];
+    });
+    
     if ([_device lockForConfiguration:nil]) {
         if ([_device isFlashModeSupported:AVCaptureFlashModeAuto]) {
             [_device setFlashMode:AVCaptureFlashModeAuto];
@@ -336,9 +357,9 @@
         [_device unlockForConfiguration];
     }
     
-    ZKIDCardFloatingView *IDCardFloatingView = [[ZKIDCardFloatingView alloc] initWithType:self.type];
-    [self.view addSubview:IDCardFloatingView];
-    [IDCardFloatingView mas_makeConstraints:^(MASConstraintMaker *make) {
+    self.IDCardFloatingView = [[ZKIDCardFloatingView alloc] initWithType:self.type];
+    [self.view addSubview:self.IDCardFloatingView];
+    [self.IDCardFloatingView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
 }

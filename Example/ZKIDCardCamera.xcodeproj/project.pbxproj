@@ -253,7 +253,7 @@
 				ORGANIZATIONNAME = "deyang143@126.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 9H5P3JV3C7;
+						DevelopmentTeam = XUTAJVDFUB;
 						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
@@ -526,12 +526,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9H5P3JV3C7;
+				DEVELOPMENT_TEAM = XUTAJVDFUB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZKIDCardCamera/ZKIDCardCamera-Prefix.pch";
 				INFOPLIST_FILE = "ZKIDCardCamera/ZKIDCardCamera-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaiser.camera;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hurryup.zkid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -543,13 +543,14 @@
 			baseConfigurationReference = 5DB6E3485581C60D5E2485FA /* Pods-ZKIDCardCamera_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUTAJVDFUB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZKIDCardCamera/ZKIDCardCamera-Prefix.pch";
 				INFOPLIST_FILE = "ZKIDCardCamera/ZKIDCardCamera-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rxh;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hurryup.zkid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;

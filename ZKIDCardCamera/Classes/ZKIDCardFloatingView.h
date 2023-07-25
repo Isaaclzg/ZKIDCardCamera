@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithType:(ZKIDCardType)type;
 
+- (CGSize)getImageSize;
+
 @end
 
 NS_ASSUME_NONNULL_END
