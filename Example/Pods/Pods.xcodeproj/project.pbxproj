@@ -12,11 +12,12 @@
 		038939B3FC4DB1FFE27561B9506EC3F5 /* NSObject+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 326D2CE6901E6333385907DA29A0189D /* NSObject+ZKAdd.m */; };
 		047237138AE4F0F20186F9299F2FCB8A /* UIGestureRecognizer+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F4A3C66FEF52E7369415E4A318E165 /* UIGestureRecognizer+ZKAdd.m */; };
 		0750D4472577FC95D76F26536210DD53 /* UIApplication+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BBABD0105FC8062AE2C2B48C0B15A9 /* UIApplication+ZKAdd.m */; };
-		0982E4306DA5985EA5E9F02075A3B62C /* ZKIDCardFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 907B8CD940AADDF84F9251B055D398FE /* ZKIDCardFloatingView.m */; };
+		0CA3AC4348082CC6A0143B97995F05BC /* ZKIDCardCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E07CF18B5D9AE6E7034899C6EB987D /* ZKIDCardCameraController.m */; };
+		0DE63318E4EFED104982996E013AB0BD /* ZKIDCardCameraController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0870F4A90BD9C73C4DE6B56E2EF82574 /* ZKIDCardCameraController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4751BEBAF654370AE57ED054CAE222 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F907936F7E991F47C05557879084082 /* ZKIDCardCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57AABC3ED8AE0C0A0297061E74642217 /* ZKIDCardCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1142B8ED99234A854713552DD965FB9F /* Pods-ZKIDCardCamera_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E314C5B7E5EDA843238E3DB28E6528FC /* Pods-ZKIDCardCamera_Example-dummy.m */; };
 		12A317BC461C505024B452706D4F19BE /* UILabel+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CD6194CCF3286A2AB2D3C7707B2F96 /* UILabel+ZKAdd.m */; };
+		130A7FCD092BB61594276AA87038B2D7 /* ZKIDTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A2F6F14EED70F4A354AE14DB2E0CB7 /* ZKIDTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1615D5F3161E581A8F45C86C8EDDFDC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		16449BD44E4931FD468DC7724C51E5A7 /* UIScrollView+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CC063E83B4A67FCB6C2AF94FAE55DE /* UIScrollView+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16A7463164B9F8180835C9344A6E2372 /* UIResponder+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E3796E98C136CD213FEA84B510EA14 /* UIResponder+ZKAdd.m */; };
@@ -31,12 +32,13 @@
 		1DDF51C85B178AEC92EABE501F553D42 /* UITextView+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A61F67FDBFFB2569FC4063474E7F75C /* UITextView+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1914CDCE28E2A0D8EE0058F80CE9FDC7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		292AA6CE0EE8F3C0F4E60581F9F9C717 /* NSArray+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD0CFF455D3D2026FF3D4CB9A0A8FF /* NSArray+ZKAdd.m */; };
-		2FC3F753B7FBCE63D498B0AA7810C8B6 /* ZKIDCardFloatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9478A050854984ACFB1250EBDBB09EAA /* ZKIDCardFloatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3118B98B635314C147257E16D0B9E88E /* UIGestureRecognizer+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCAD5F03E47CF4F2E1E0A514C94F9F9 /* UIGestureRecognizer+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA6DDF1F4FF8F83E5C8FE2E29DF7B6C /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37F0F5B86131858E9978E5B6ABBE9610 /* NSString+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1018F34B819C4087E6B03423F86B820F /* NSString+ZKAdd.m */; };
 		3953B2B6E72F10A92FE1A6BA2227D358 /* UIImageView+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 27515D7C63B5BC22AA761D2434C644AF /* UIImageView+ZKAdd.m */; };
+		3C7D4742EF37A8E5075084F31BDD0A81 /* ZKIDCardCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAD9D1CA5805D2D8BA46DD0653B5E00 /* ZKIDCardCamera-dummy.m */; };
 		3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC7045335319CC4AC87A410CF038330 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D3B34E63C807967C252EA2C17BA7B98 /* ZKIDCardCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B754E12A9B818F3B560728A4FDF5D91F /* ZKIDCardCamera.bundle */; };
 		41A773FC751DBB68EDF567E43D2255FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		442BEF34CF38500CCBAF01E892F48378 /* NSObject+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D7876273E68AEEFB509AA9522EEAF /* NSObject+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		443543619CAE24B3BD3894F7239C8DD1 /* NSString+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD5194F3D87D39889FCE1878622A931 /* NSString+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,6 +57,7 @@
 		567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB825F582F8BDF3F872526FEDA2029D /* ViewController+MASAdditions.m */; };
 		5F5DEE1E115DAE92ECB0F65215399FDB /* UIScreen+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E5C39290083ED299AE5B7020B292FC /* UIScreen+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B781A239EB46C995D42B5EC1867CF7D3 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627963C450E40B3C9377F5B8C437DE54 /* ZKIDCardCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C43C73E70439F280D9EFFFF4F19B42 /* ZKIDCardCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64FDF29E95AFB412A211A2601F5FE59A /* UIScreen+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4287D5A190C70D416149DACA01D9253D /* UIScreen+ZKAdd.m */; };
 		65507E283240D480C4F19473B2DD67CF /* ZKUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D9385E9D9D65295461F6B2A19F9CBD /* ZKUnicode.m */; };
 		70D09EF6E18DE3E75674C95BE76C2686 /* NSNotificationCenter+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F42ECB8C94B6D1CFC381137EA8CEA72 /* NSNotificationCenter+ZKAdd.m */; };
@@ -74,12 +77,13 @@
 		86313461C623F84C4A2FDDAD2165E6C1 /* NSUserDefaults+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 12FF72C2ED2444C18DD1DCE2ADF13B94 /* NSUserDefaults+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		886EBC3482920E9FCCC763AF960CB0FB /* UINavigationBar+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDDB217B24E1A738D14285BB2DEDA0 /* UINavigationBar+ZKAdd.m */; };
 		897BFD2E0C17EB213BF7B5BDAB04FC1E /* NSDecimalNumber+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B052F97C276AB0A1FCE0FEA8A8CD9 /* NSDecimalNumber+ZKAdd.m */; };
+		8AA92A78B037B22A26437C251D3B319E /* ZKIDCardFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63118B58DF1B508339821BF22B708FDB /* ZKIDCardFloatingView.m */; };
 		8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B63025A2370D3C04A6E238205818830 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C593962313BA8D4F2FB22431FA2BD1E /* ZKIDCardCameraController.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E44D917AADFCEC1FAA559412E0904A /* ZKIDCardCameraController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E99642CBB54D3A1AFA30E743C3D9F9D /* UILabel+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F87D55BD51788E7F3C0B234313544B1 /* UILabel+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FC091B6AB1C5095E5B12622EA0A9978 /* WKWebView+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A19C8673A0789ADA31C7792ACB961DE /* WKWebView+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		903B5345C15B387F41A2D8DC2BF53919 /* NSRunLoop+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 156EA486E0424DE6C1ACD3EB681953E9 /* NSRunLoop+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91973FA4FFB542DAF23B197368E63F9D /* Pods-ZKIDCardCamera_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86371036A040B960D5013E2E75F7E204 /* Pods-ZKIDCardCamera_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9363A55FC67B62B7A06D8D0DEC78659C /* ZKIDCardFloatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE875C91CE4E4654399BC6296E0104D /* ZKIDCardFloatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		981DBC636A0A9E96411BD2450F1188EE /* UIApplication+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDA3D818BE8C6D9EAB0B6FEE9C0AA74 /* UIApplication+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C4A3A81FF734C49D9D5D146DD4B6446 /* UIImage+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 37625C39A7543444BD8E5DFE1399F00D /* UIImage+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D6EF6757B5060AEE20584958DAC9F7F /* UITextView+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE65729A2B3F6237205A4880503B87E /* UITextView+ZKAdd.m */; };
@@ -89,12 +93,12 @@
 		A4E4115BF7270B703510803DA4CBD307 /* UIWindow+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E986B99CD841B5D34359DD60E14C65 /* UIWindow+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A68E99BC3BE9286DCDAB02782DB90BE4 /* UIBarButtonItem+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FF52DF4B4B871342FBCDC43170509F /* UIBarButtonItem+ZKAdd.m */; };
 		A6CFC3503653583BC6237D7E282FB360 /* UIWindow+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B08784AD7FBB46BAB5B649D38E44EBAB /* UIWindow+ZKAdd.m */; };
-		A804CD2343057EC4720A6DD26E63AE65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD53A3AC55132114C2B1A5F72B0EEF6 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A89C279794F677C2E62B130E5D6DEA64 /* ZKCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = CE409DBA6867FC34EB5CF6BDAC182E9D /* ZKCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A69F3ADCAFE1CE38C1745DDEC2A4704D /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B26E3B58F725060D4085CBC009B0EACF /* NSData+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 022AC19BC6A25D11B28127A6162C1B51 /* NSData+ZKAdd.m */; };
 		B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F4184CF9E27B25F9F8A454FFDE9A608F /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52DEF2860DFEB75FB564B8C11AD7E42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5696FFA009B876290E24E0187D6ED1 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6CF93E17ED8F820047DAEC8A56036D2 /* NSURL+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE93BB007A433BC2C4DEA97FEB79230 /* NSURL+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B760A7B5D136092884C35FEE508FF1CE /* UIDevice+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F5BD03D4CA3AE37C6A59CE4CC67639 /* UIDevice+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,11 +113,9 @@
 		C52FA555B6A0F0C92BC40EF770340BA0 /* UIScrollView+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD495A29FE62795513301AC2B08F1E8 /* UIScrollView+ZKAdd.m */; };
 		C6502030B84B341649AFD2B4053B3BAD /* UITableViewCell+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B81E471A5558450318CAD0917CE490 /* UITableViewCell+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D798482A9912912E1602E07775E552 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		C932836C47AD1B8F0F7C10144A083D34 /* ZKIDCardCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 474C98A7ED8DC79B13D78967D54DD6AF /* ZKIDCardCamera-dummy.m */; };
 		C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7D16B8B3BC7BFA31DF2E5C6E8F86A /* NSArray+MASAdditions.m */; };
 		CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A6752490E94B5B8A2FBAECBF18FCED /* Masonry-dummy.m */; };
 		CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 874F42697826BE061EA1A37E1154B9FC /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D05C38A36107C61D0C99444DE093F35E /* ZKIDCardCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 51CA4517B4B7B830BD0EF265C44525E5 /* ZKIDCardCamera.bundle */; };
 		D0FC19770061AFF5F221060236A8C466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		D154D052EE44F7D67B27078D8C567632 /* UIDevice+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABF7686C9294779247169F68602EE07 /* UIDevice+ZKAdd.m */; };
 		D45DCCEAFB1C5712786EB2D64A8FC203 /* NSError+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6933A457415DD8515F0810A1DBF54E8E /* NSError+ZKAdd.m */; };
@@ -121,11 +123,11 @@
 		D557CA15969E949910DFE91B6955C3FE /* UINavigationController+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 45373482CADD7F06F76B30AD8E128D60 /* UINavigationController+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5BB04C19D55D91BD2EE21187A1A04A1 /* ZKCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C565949531FEF3A71412F61A44581E7E /* ZKCGUtilities.m */; };
 		E2EC08438416772BCF49258C0D76FC5D /* UITextField+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5567131B360D5FE17F8D2C9E65EA0B5E /* UITextField+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E364C9BC845BD9CE52529A583A6CB632 /* ZKIDCardCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5437CD54151B40084F934DDAF27CA3B4 /* ZKIDCardCameraController.m */; };
 		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C5541CB9C1F88C036E027E34BE2C2B /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E614CFDFF6F6773BD98E8234A2455488 /* ZKCategoriesMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDBFAE0D43C8E90EF8D9694F050FD56 /* ZKCategoriesMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6674F8E9A5A4AB900B82EB970CDA76 /* MASViewConstraint.m */; };
 		E8013115F6106F4757DE96AEE8CD4225 /* ZKCGUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3501123C2987334672EDA23DCACFA80C /* ZKCGUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB8F085601F0B5D5E546A44DA5D2154A /* ZKIDTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9993CF95AD63392461DCA52F0E4447D5 /* ZKIDTools.m */; };
 		EDFFED2CC55F986CE20E583E6BB8E752 /* NSDictionary+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C191D4B6CD574063C85A6662B7367B71 /* NSDictionary+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE5E2407C239AF9988A3C1B5B9318A4E /* UIImageView+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C0A08497F45BACD5AA208E8E6D60DF /* UIImageView+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE853AD68F8E3AC303994C732B7019D8 /* WKWebView+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A42229423929C1DFD7C47925CF849C /* WKWebView+ZKAdd.m */; };
@@ -137,51 +139,52 @@
 		F6E43C64BB9D7E5C763DE3F756256CF6 /* CALayer+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6E9D126DA6ABAC254B3C3BE6B32FF8 /* CALayer+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8AD86922E58573663D8CF4FEAAA7C1B /* UINavigationController+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A94B6E98D3FC5203B38A2646A2ACCB /* UINavigationController+ZKAdd.m */; };
 		FB5CB56D4C53763B812DAB2C62DF4E93 /* UITableView+ZKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB1BBE936499EE014824FE63CDC745 /* UITableView+ZKAdd.m */; };
+		FC0485A755BD5C741A6F0979A4EF887F /* ZKIDCardCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5F417267858D8AD3F23AA74EF5FA37 /* ZKIDCardCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE4A64D6CF5E4CB0F82683885C3F3719 /* NSDate+ZKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9F782341EDFC2B44D2869C8D480312 /* NSDate+ZKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E95C7BC0BE941D7EB62D0F841D76D1C /* PBXContainerItemProxy */ = {
+		31AF4F27E741FCCBCE3C056AFF8F3EFB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		222D0B4B1DC19A49D272853581254C24 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		2CF9434609858D6D0E24EB314C6AB95A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 286032C434A36E28AA586459EEC04FEA;
-			remoteInfo = ZKCategories;
-		};
-		4540E61B7EDB501FE75B517228AD050F /* PBXContainerItemProxy */ = {
+		40DE9718DF1E90441F93990F1413E307 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D03263F90CDA165E4C747E0F5D4FDA72;
 			remoteInfo = "Pods-ZKIDCardCamera_Example";
 		};
-		C6EA7219B752E3938E00335DC66049F2 /* PBXContainerItemProxy */ = {
+		7344BB2FEF5EC86EFAABE0F63CE3E707 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 286032C434A36E28AA586459EEC04FEA;
 			remoteInfo = ZKCategories;
 		};
-		D1705407C014705EE1FF0F693AE86392 /* PBXContainerItemProxy */ = {
+		9F51C1F70F11B42ACC4D843C3770AB61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		C8F5622B4204FF51F9B586C4FE25954B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C2EE3F1D80822A16AFD6E66C21C0C29E;
 			remoteInfo = ZKIDCardCamera;
+		};
+		F7E5FAFBFBECB7A8DDFE27E098E48E6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286032C434A36E28AA586459EEC04FEA;
+			remoteInfo = ZKCategories;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -193,12 +196,14 @@
 		04A42229423929C1DFD7C47925CF849C /* WKWebView+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+ZKAdd.m"; path = "ZKCategories/Classes/WKWebView/WKWebView+ZKAdd.m"; sourceTree = "<group>"; };
 		05C069FD3C2E9580087249A14B3982D2 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		05D3C6A314385ED1544DC98FF174F73E /* NSNumber+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+ZKAdd.h"; path = "ZKCategories/Classes/NSNumber/NSNumber+ZKAdd.h"; sourceTree = "<group>"; };
+		0870F4A90BD9C73C4DE6B56E2EF82574 /* ZKIDCardCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKIDCardCameraController.h; path = ZKIDCardCamera/Classes/ZKIDCardCameraController.h; sourceTree = "<group>"; };
 		097A3A658C9C528E2AD7DC9FBFDABE49 /* UIImage+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZKAdd.m"; path = "ZKCategories/Classes/UIImage/UIImage+ZKAdd.m"; sourceTree = "<group>"; };
 		09F5BD03D4CA3AE37C6A59CE4CC67639 /* UIDevice+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+ZKAdd.h"; path = "ZKCategories/Classes/UIDevice/UIDevice+ZKAdd.h"; sourceTree = "<group>"; };
 		0A19C8673A0789ADA31C7792ACB961DE /* WKWebView+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+ZKAdd.h"; path = "ZKCategories/Classes/WKWebView/WKWebView+ZKAdd.h"; sourceTree = "<group>"; };
 		0CB7D16B8B3BC7BFA31DF2E5C6E8F86A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		1018F34B819C4087E6B03423F86B820F /* NSString+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZKAdd.m"; path = "ZKCategories/Classes/NSString/NSString+ZKAdd.m"; sourceTree = "<group>"; };
 		107FC3B76879368BF596135675308867 /* NSDate+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ZKAdd.m"; path = "ZKCategories/Classes/NSDate/NSDate+ZKAdd.m"; sourceTree = "<group>"; };
+		112DA92FF37198B03080DB79CB44E25D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		11C285198506FD036C13E6DCE5987716 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		1282EEC51FCC7012199A8EF28C9D1DF8 /* NSData+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ZKAdd.h"; path = "ZKCategories/Classes/NSData/NSData+ZKAdd.h"; sourceTree = "<group>"; };
 		12FF72C2ED2444C18DD1DCE2ADF13B94 /* NSUserDefaults+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+ZKAdd.h"; path = "ZKCategories/Classes/NSUserDefaults/NSUserDefaults+ZKAdd.h"; sourceTree = "<group>"; };
@@ -208,6 +213,7 @@
 		1914CDCE28E2A0D8EE0058F80CE9FDC7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		1CDF4CFE6B8125EBF241F7A5FBB7F054 /* NSDictionary+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+ZKAdd.m"; path = "ZKCategories/Classes/NSDictionary/NSDictionary+ZKAdd.m"; sourceTree = "<group>"; };
 		1DFD0CFF455D3D2026FF3D4CB9A0A8FF /* NSArray+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+ZKAdd.m"; path = "ZKCategories/Classes/NSArray/NSArray+ZKAdd.m"; sourceTree = "<group>"; };
+		1EE875C91CE4E4654399BC6296E0104D /* ZKIDCardFloatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKIDCardFloatingView.h; path = ZKIDCardCamera/Classes/ZKIDCardFloatingView.h; sourceTree = "<group>"; };
 		1F87D55BD51788E7F3C0B234313544B1 /* UILabel+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+ZKAdd.h"; path = "ZKCategories/Classes/UILabel/UILabel+ZKAdd.h"; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		210694CCEEC2B9F99B849C9B8E4DE384 /* Pods-ZKIDCardCamera_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKIDCardCamera_Example-Info.plist"; sourceTree = "<group>"; };
@@ -221,6 +227,7 @@
 		315CEA77FA26E5691189959D9642C6D9 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		326D2CE6901E6333385907DA29A0189D /* NSObject+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZKAdd.m"; path = "ZKCategories/Classes/NSObject/NSObject+ZKAdd.m"; sourceTree = "<group>"; };
 		3501123C2987334672EDA23DCACFA80C /* ZKCGUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKCGUtilities.h; path = ZKCategories/Classes/ZKCGUtilities.h; sourceTree = "<group>"; };
+		36578658A543A348BC7CC4B1DCA736A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		37625C39A7543444BD8E5DFE1399F00D /* UIImage+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZKAdd.h"; path = "ZKCategories/Classes/UIImage/UIImage+ZKAdd.h"; sourceTree = "<group>"; };
 		3ABF7686C9294779247169F68602EE07 /* UIDevice+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+ZKAdd.m"; path = "ZKCategories/Classes/UIDevice/UIDevice+ZKAdd.m"; sourceTree = "<group>"; };
 		3E26DF87AC4FE96F104774B195D52966 /* ZKCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKCategories-prefix.pch"; sourceTree = "<group>"; };
@@ -232,7 +239,6 @@
 		42A8FC0944F2D3A1E73D48B0C128A03E /* Pods-ZKIDCardCamera_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZKIDCardCamera_Example"; path = Pods_ZKIDCardCamera_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E37964A1E23A7D70BB038C1262D828 /* UIBarButtonItem+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+ZKAdd.h"; path = "ZKCategories/Classes/UIBarButtonItem/UIBarButtonItem+ZKAdd.h"; sourceTree = "<group>"; };
 		45373482CADD7F06F76B30AD8E128D60 /* UINavigationController+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+ZKAdd.h"; path = "ZKCategories/Classes/UINavigationController/UINavigationController+ZKAdd.h"; sourceTree = "<group>"; };
-		474C98A7ED8DC79B13D78967D54DD6AF /* ZKIDCardCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKIDCardCamera-dummy.m"; sourceTree = "<group>"; };
 		48E0E4A3683A99CA90E4D472BA258648 /* NSArray+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+ZKAdd.h"; path = "ZKCategories/Classes/NSArray/NSArray+ZKAdd.h"; sourceTree = "<group>"; };
 		49D2CFAB03C39367EA05F463D8A685D4 /* ZKCategories */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZKCategories; path = ZKCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B903AA414095A07A8B2176AFB8629C6 /* Pods-ZKIDCardCamera_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKIDCardCamera_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -240,14 +246,12 @@
 		4D6E9D126DA6ABAC254B3C3BE6B32FF8 /* CALayer+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+ZKAdd.h"; path = "ZKCategories/Classes/CALayer/CALayer+ZKAdd.h"; sourceTree = "<group>"; };
 		4F5696FFA009B876290E24E0187D6ED1 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		51C0A08497F45BACD5AA208E8E6D60DF /* UIImageView+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+ZKAdd.h"; path = "ZKCategories/Classes/UIImageView/UIImageView+ZKAdd.h"; sourceTree = "<group>"; };
-		51CA4517B4B7B830BD0EF265C44525E5 /* ZKIDCardCamera.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZKIDCardCamera.bundle; path = ZKIDCardCamera/ZKIDCardCamera.bundle; sourceTree = "<group>"; };
-		540448EAD51B9013168645101793B013 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5437CD54151B40084F934DDAF27CA3B4 /* ZKIDCardCameraController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKIDCardCameraController.m; path = ZKIDCardCamera/Classes/ZKIDCardCameraController.m; sourceTree = "<group>"; };
+		54ED4AAD7033E7EFB7324D9FA49C84C5 /* ZKIDCardCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKIDCardCamera.release.xcconfig; sourceTree = "<group>"; };
 		5567131B360D5FE17F8D2C9E65EA0B5E /* UITextField+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+ZKAdd.h"; path = "ZKCategories/Classes/UITextField/UITextField+ZKAdd.h"; sourceTree = "<group>"; };
 		5753F4EF929CAF3C21A8F6F338F1B61A /* Pods-ZKIDCardCamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKIDCardCamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		57AABC3ED8AE0C0A0297061E74642217 /* ZKIDCardCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKIDCardCamera-umbrella.h"; sourceTree = "<group>"; };
 		58317CC903FCC37D618A8D7961C34216 /* Pods-ZKIDCardCamera_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZKIDCardCamera_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		586430B057BE10E9F92A483C851D7FB0 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		58A2F6F14EED70F4A354AE14DB2E0CB7 /* ZKIDTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKIDTools.h; path = ZKIDCardCamera/Classes/ZKIDTools.h; sourceTree = "<group>"; };
 		5A61F67FDBFFB2569FC4063474E7F75C /* UITextView+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+ZKAdd.h"; path = "ZKCategories/Classes/UITextView/UITextView+ZKAdd.h"; sourceTree = "<group>"; };
 		5AF2DDF1A406CB0650EC3E29ADB074C0 /* Pods-ZKIDCardCamera_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZKIDCardCamera_Example-umbrella.h"; sourceTree = "<group>"; };
 		5B63025A2370D3C04A6E238205818830 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
@@ -255,7 +259,11 @@
 		5D76CD479CF9257E5C2A1CB7F826E4EC /* NSTimer+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+ZKAdd.h"; path = "ZKCategories/Classes/NSTimer/NSTimer+ZKAdd.h"; sourceTree = "<group>"; };
 		5DD5194F3D87D39889FCE1878622A931 /* NSString+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZKAdd.h"; path = "ZKCategories/Classes/NSString/NSString+ZKAdd.h"; sourceTree = "<group>"; };
 		5DE93BB007A433BC2C4DEA97FEB79230 /* NSURL+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+ZKAdd.h"; path = "ZKCategories/Classes/NSURL/NSURL+ZKAdd.h"; sourceTree = "<group>"; };
+		5E5F417267858D8AD3F23AA74EF5FA37 /* ZKIDCardCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKIDCardCamera-umbrella.h"; sourceTree = "<group>"; };
+		5ED225027A724DD2CD336EF92F5C7211 /* ZKIDCardCamera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZKIDCardCamera.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5FCFE886D2A6CC663A45EA7377FD49FC /* ZKIDCardCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZKIDCardCamera.modulemap; sourceTree = "<group>"; };
 		60CC063E83B4A67FCB6C2AF94FAE55DE /* UIScrollView+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+ZKAdd.h"; path = "ZKCategories/Classes/UIScrollView/UIScrollView+ZKAdd.h"; sourceTree = "<group>"; };
+		63118B58DF1B508339821BF22B708FDB /* ZKIDCardFloatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKIDCardFloatingView.m; path = ZKIDCardCamera/Classes/ZKIDCardFloatingView.m; sourceTree = "<group>"; };
 		645AAC44F5816CABC2A693405ABFCC50 /* ZKCategories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKCategories.release.xcconfig; sourceTree = "<group>"; };
 		6919BE6A222A2FBF34528E9564A26D45 /* UIImagePickerController+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImagePickerController+ZKAdd.h"; path = "ZKCategories/Classes/UIImagePickerController/UIImagePickerController+ZKAdd.h"; sourceTree = "<group>"; };
 		6933A457415DD8515F0810A1DBF54E8E /* NSError+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+ZKAdd.m"; path = "ZKCategories/Classes/NSError/NSError+ZKAdd.m"; sourceTree = "<group>"; };
@@ -263,12 +271,12 @@
 		6D2C7597CAAD88CAE28C59FCF180C793 /* UIControl+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+ZKAdd.h"; path = "ZKCategories/Classes/UIControl/UIControl+ZKAdd.h"; sourceTree = "<group>"; };
 		6DC7045335319CC4AC87A410CF038330 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		6F33D5C2AABDD733A9F89C6E06D1BCFE /* UIControl+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+ZKAdd.m"; path = "ZKCategories/Classes/UIControl/UIControl+ZKAdd.m"; sourceTree = "<group>"; };
-		6F6B6D024F6C881BB7328D67F13A8CB5 /* ZKIDCardCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKIDCardCamera-Info.plist"; sourceTree = "<group>"; };
 		6F969F44B26BBFCB0FF9BF798DA3330A /* NSDecimalNumber+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+ZKAdd.h"; path = "ZKCategories/Classes/NSNumber/NSDecimalNumber+ZKAdd.h"; sourceTree = "<group>"; };
 		72A6752490E94B5B8A2FBAECBF18FCED /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		72F61CA579CE192ED3E04ACDD2ECB4C3 /* ZKIDCardCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKIDCardCamera-prefix.pch"; sourceTree = "<group>"; };
 		73CD6194CCF3286A2AB2D3C7707B2F96 /* UILabel+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+ZKAdd.m"; path = "ZKCategories/Classes/UILabel/UILabel+ZKAdd.m"; sourceTree = "<group>"; };
 		7B70C14D56FEED6B2B01ABA5DD7C2C76 /* ZKCategories-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKCategories-Info.plist"; sourceTree = "<group>"; };
-		7EF80E303DD699EF5D1A7CD245526C87 /* ZKIDCardCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZKIDCardCamera.modulemap; sourceTree = "<group>"; };
+		7DAD9D1CA5805D2D8BA46DD0653B5E00 /* ZKIDCardCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKIDCardCamera-dummy.m"; sourceTree = "<group>"; };
 		7F8E22A75F32FAE6761EB5C3F6919E58 /* Pods-ZKIDCardCamera_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKIDCardCamera_Tests-Info.plist"; sourceTree = "<group>"; };
 		84FAB10349CC1AEC59726D7C832B3AAB /* NSNotificationCenter+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+ZKAdd.h"; path = "ZKCategories/Classes/NSNotificationCenter/NSNotificationCenter+ZKAdd.h"; sourceTree = "<group>"; };
 		86371036A040B960D5013E2E75F7E204 /* Pods-ZKIDCardCamera_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZKIDCardCamera_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -278,20 +286,18 @@
 		8B17001AE2E83C72F7F1F86D010CB497 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		8C6D7876273E68AEEFB509AA9522EEAF /* NSObject+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZKAdd.h"; path = "ZKCategories/Classes/NSObject/NSObject+ZKAdd.h"; sourceTree = "<group>"; };
 		8FD495A29FE62795513301AC2B08F1E8 /* UIScrollView+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+ZKAdd.m"; path = "ZKCategories/Classes/UIScrollView/UIScrollView+ZKAdd.m"; sourceTree = "<group>"; };
-		907B8CD940AADDF84F9251B055D398FE /* ZKIDCardFloatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKIDCardFloatingView.m; path = ZKIDCardCamera/Classes/ZKIDCardFloatingView.m; sourceTree = "<group>"; };
 		93FF52DF4B4B871342FBCDC43170509F /* UIBarButtonItem+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+ZKAdd.m"; path = "ZKCategories/Classes/UIBarButtonItem/UIBarButtonItem+ZKAdd.m"; sourceTree = "<group>"; };
 		9446B67CC1812D57B0967D9504945A03 /* UINavigationBar+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+ZKAdd.h"; path = "ZKCategories/Classes/UINavigationBar/UINavigationBar+ZKAdd.h"; sourceTree = "<group>"; };
-		9478A050854984ACFB1250EBDBB09EAA /* ZKIDCardFloatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKIDCardFloatingView.h; path = ZKIDCardCamera/Classes/ZKIDCardFloatingView.h; sourceTree = "<group>"; };
 		97AFE54EE482F6B540550CCA18C4F7EF /* UIButton+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+ZKAdd.m"; path = "ZKCategories/Classes/UIButton/UIButton+ZKAdd.m"; sourceTree = "<group>"; };
+		9993CF95AD63392461DCA52F0E4447D5 /* ZKIDTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKIDTools.m; path = ZKIDCardCamera/Classes/ZKIDTools.m; sourceTree = "<group>"; };
 		9BCAD5F03E47CF4F2E1E0A514C94F9F9 /* UIGestureRecognizer+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+ZKAdd.h"; path = "ZKCategories/Classes/UIGestureRecognizer/UIGestureRecognizer+ZKAdd.h"; sourceTree = "<group>"; };
 		9C59C5B8F352E0D509DA397406A40170 /* Pods-ZKIDCardCamera_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKIDCardCamera_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE65729A2B3F6237205A4880503B87E /* UITextView+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+ZKAdd.m"; path = "ZKCategories/Classes/UITextView/UITextView+ZKAdd.m"; sourceTree = "<group>"; };
 		A0DCE4583069F406DF247434352AFE0E /* Pods-ZKIDCardCamera_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKIDCardCamera_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A38DBF251A953E312D662CCEED213C32 /* UIView+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZKAdd.h"; path = "ZKCategories/Classes/UIView/UIView+ZKAdd.h"; sourceTree = "<group>"; };
-		A63783201205833AA080CED2D55B09F7 /* ZKIDCardCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKIDCardCamera.release.xcconfig; sourceTree = "<group>"; };
 		A69F3ADCAFE1CE38C1745DDEC2A4704D /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		A7B10973BCBA834256D75A8AD29CD5B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A86C8D61E3222DD02BF07655AF4AD9FC /* ZKIDCardCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKIDCardCamera-Info.plist"; sourceTree = "<group>"; };
 		A8EB1BBE936499EE014824FE63CDC745 /* UITableView+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+ZKAdd.m"; path = "ZKCategories/Classes/UITableView/UITableView+ZKAdd.m"; sourceTree = "<group>"; };
 		A9D9385E9D9D65295461F6B2A19F9CBD /* ZKUnicode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKUnicode.m; path = ZKCategories/Classes/ZKUnicode.m; sourceTree = "<group>"; };
 		A9F4A3C66FEF52E7369415E4A318E165 /* UIGestureRecognizer+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+ZKAdd.m"; path = "ZKCategories/Classes/UIGestureRecognizer/UIGestureRecognizer+ZKAdd.m"; sourceTree = "<group>"; };
@@ -300,11 +306,10 @@
 		B02B7B7E8E09EA650D19D672DC856A38 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		B08784AD7FBB46BAB5B649D38E44EBAB /* UIWindow+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+ZKAdd.m"; path = "ZKCategories/Classes/UIWindow/UIWindow+ZKAdd.m"; sourceTree = "<group>"; };
 		B233A4132A2D7FA3B322E3375C474A26 /* UITextField+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+ZKAdd.m"; path = "ZKCategories/Classes/UITextField/UITextField+ZKAdd.m"; sourceTree = "<group>"; };
-		B249C07FA30168C877BFAAA52806E9E0 /* ZKIDCardCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKIDCardCamera.debug.xcconfig; sourceTree = "<group>"; };
 		B6868FC2408271D85455FB0FEF4B5FDE /* NSTimer+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+ZKAdd.m"; path = "ZKCategories/Classes/NSTimer/NSTimer+ZKAdd.m"; sourceTree = "<group>"; };
 		B7260B3B95EA3010256FFEED6AECE0B6 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		B754E12A9B818F3B560728A4FDF5D91F /* ZKIDCardCamera.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZKIDCardCamera.bundle; path = ZKIDCardCamera/ZKIDCardCamera.bundle; sourceTree = "<group>"; };
 		B781A239EB46C995D42B5EC1867CF7D3 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		B7E44D917AADFCEC1FAA559412E0904A /* ZKIDCardCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKIDCardCameraController.h; path = ZKIDCardCamera/Classes/ZKIDCardCameraController.h; sourceTree = "<group>"; };
 		B8BBABD0105FC8062AE2C2B48C0B15A9 /* UIApplication+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+ZKAdd.m"; path = "ZKCategories/Classes/UIApplication/UIApplication+ZKAdd.m"; sourceTree = "<group>"; };
 		BA0EFA5A02E494CE2F91A80BBDCC5FD2 /* UIResponder+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+ZKAdd.h"; path = "ZKCategories/Classes/UIResponder/UIResponder+ZKAdd.h"; sourceTree = "<group>"; };
 		C191D4B6CD574063C85A6662B7367B71 /* NSDictionary+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ZKAdd.h"; path = "ZKCategories/Classes/NSDictionary/NSDictionary+ZKAdd.h"; sourceTree = "<group>"; };
@@ -312,7 +317,6 @@
 		C3C55C94C9FD3A1C0F53C597B28A23A7 /* Pods-ZKIDCardCamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKIDCardCamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C530CBAE0DF00979CAA84B3A5144AC61 /* ZKUnicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKUnicode.h; path = ZKCategories/Classes/ZKUnicode.h; sourceTree = "<group>"; };
 		C565949531FEF3A71412F61A44581E7E /* ZKCGUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKCGUtilities.m; path = ZKCategories/Classes/ZKCGUtilities.m; sourceTree = "<group>"; };
-		C5A8312F799A9EE2AB0BD574CA442235 /* ZKIDCardCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKIDCardCamera-prefix.pch"; sourceTree = "<group>"; };
 		C76DE0687F602B2E50FF3541324D9886 /* ZKUIConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKUIConstants.h; path = ZKCategories/Classes/ZKUIConstants.h; sourceTree = "<group>"; };
 		C819D5EE06138E42785E7ABFE387A002 /* UIButton+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+ZKAdd.h"; path = "ZKCategories/Classes/UIButton/UIButton+ZKAdd.h"; sourceTree = "<group>"; };
 		CBDA3D818BE8C6D9EAB0B6FEE9C0AA74 /* UIApplication+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+ZKAdd.h"; path = "ZKCategories/Classes/UIApplication/UIApplication+ZKAdd.h"; sourceTree = "<group>"; };
@@ -321,12 +325,13 @@
 		CE409DBA6867FC34EB5CF6BDAC182E9D /* ZKCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKCategories.h; path = ZKCategories/Classes/ZKCategories.h; sourceTree = "<group>"; };
 		CFD53A3AC55132114C2B1A5F72B0EEF6 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		CFDBFAE0D43C8E90EF8D9694F050FD56 /* ZKCategoriesMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKCategoriesMacro.h; path = ZKCategories/Classes/ZKCategoriesMacro.h; sourceTree = "<group>"; };
+		D0E07CF18B5D9AE6E7034899C6EB987D /* ZKIDCardCameraController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKIDCardCameraController.m; path = ZKIDCardCamera/Classes/ZKIDCardCameraController.m; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D442E32A5707DA1476451B65CDD98990 /* ZKCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKCategories-dummy.m"; sourceTree = "<group>"; };
 		D44372FE73AC60E516FC601CF672DDC1 /* ZKCategories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKCategories.debug.xcconfig; sourceTree = "<group>"; };
 		D47987E45D7D0422E5277719B4941880 /* UIView+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZKAdd.m"; path = "ZKCategories/Classes/UIView/UIView+ZKAdd.m"; sourceTree = "<group>"; };
 		D4EB8DD889F51D32F2B855E86CB126ED /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		D5ECB4607B70043071EAA963C68FA5E2 /* ZKIDCardCamera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZKIDCardCamera.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6DB9D639F43C3B0220E8C467547E192 /* ZKIDCardCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKIDCardCamera.debug.xcconfig; sourceTree = "<group>"; };
 		D7126213DE4915217B35E838F1AE1FCA /* NSError+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+ZKAdd.h"; path = "ZKCategories/Classes/NSError/NSError+ZKAdd.h"; sourceTree = "<group>"; };
 		D73AA8FB1CE492C612FE2B6ABAD916BA /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		D76F9C48C0D88FD1FCA9425BD55DEB04 /* Pods-ZKIDCardCamera_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKIDCardCamera_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -345,6 +350,7 @@
 		EC009B49276F3B1378AA372BA9F85A31 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		ECFD04890A674D62B344E42B70449619 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		EF9F782341EDFC2B44D2869C8D480312 /* NSDate+ZKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ZKAdd.h"; path = "ZKCategories/Classes/NSDate/NSDate+ZKAdd.h"; sourceTree = "<group>"; };
+		F1C43C73E70439F280D9EFFFF4F19B42 /* ZKIDCardCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKIDCardCamera.h; path = ZKIDCardCamera/Classes/ZKIDCardCamera.h; sourceTree = "<group>"; };
 		F4184CF9E27B25F9F8A454FFDE9A608F /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		F4A94B6E98D3FC5203B38A2646A2ACCB /* UINavigationController+ZKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+ZKAdd.m"; path = "ZKCategories/Classes/UINavigationController/UINavigationController+ZKAdd.m"; sourceTree = "<group>"; };
 		F4EB32A835E9B8E39E62C6B80E9CB0FC /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
@@ -353,6 +359,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		036E811D626906F0523CB50A3275FFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52DEF2860DFEB75FB564B8C11AD7E42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F73C5694DFFD517A501AE77DCA62248 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,14 +380,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1615D5F3161E581A8F45C86C8EDDFDC9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ADEAC7C80EE7A43EC4DC76C38A70A12 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A804CD2343057EC4720A6DD26E63AE65 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,21 +495,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		01F3DB81F4F14EFC6124107A204E2AD1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7EF80E303DD699EF5D1A7CD245526C87 /* ZKIDCardCamera.modulemap */,
-				474C98A7ED8DC79B13D78967D54DD6AF /* ZKIDCardCamera-dummy.m */,
-				6F6B6D024F6C881BB7328D67F13A8CB5 /* ZKIDCardCamera-Info.plist */,
-				C5A8312F799A9EE2AB0BD574CA442235 /* ZKIDCardCamera-prefix.pch */,
-				57AABC3ED8AE0C0A0297061E74642217 /* ZKIDCardCamera-umbrella.h */,
-				B249C07FA30168C877BFAAA52806E9E0 /* ZKIDCardCamera.debug.xcconfig */,
-				A63783201205833AA080CED2D55B09F7 /* ZKIDCardCamera.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZKIDCardCamera";
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -519,16 +510,6 @@
 				A8493805ABF6747898939C0D6E74F477 /* ZKCategories */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		2CE312A322B78A1E8487997072E3A13F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				540448EAD51B9013168645101793B013 /* LICENSE */,
-				A7B10973BCBA834256D75A8AD29CD5B0 /* README.md */,
-				D5ECB4607B70043071EAA963C68FA5E2 /* ZKIDCardCamera.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		4528253D9288C7B1B38C12644DD57827 /* Pods-ZKIDCardCamera_Example */ = {
@@ -606,6 +587,34 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		7C62D14C9DC8562146F751A7D20F80F8 /* ZKIDCardCamera */ = {
+			isa = PBXGroup;
+			children = (
+				B754E12A9B818F3B560728A4FDF5D91F /* ZKIDCardCamera.bundle */,
+				F1C43C73E70439F280D9EFFFF4F19B42 /* ZKIDCardCamera.h */,
+				0870F4A90BD9C73C4DE6B56E2EF82574 /* ZKIDCardCameraController.h */,
+				D0E07CF18B5D9AE6E7034899C6EB987D /* ZKIDCardCameraController.m */,
+				1EE875C91CE4E4654399BC6296E0104D /* ZKIDCardFloatingView.h */,
+				63118B58DF1B508339821BF22B708FDB /* ZKIDCardFloatingView.m */,
+				58A2F6F14EED70F4A354AE14DB2E0CB7 /* ZKIDTools.h */,
+				9993CF95AD63392461DCA52F0E4447D5 /* ZKIDTools.m */,
+				94956DF025FDDD4E947C64651F1094C9 /* Pod */,
+				B4E1035792906E57D11D01875CEFA59D /* Support Files */,
+			);
+			name = ZKIDCardCamera;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		94956DF025FDDD4E947C64651F1094C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				36578658A543A348BC7CC4B1DCA736A0 /* LICENSE */,
+				112DA92FF37198B03080DB79CB44E25D /* README.md */,
+				5ED225027A724DD2CD336EF92F5C7211 /* ZKIDCardCamera.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		A8493805ABF6747898939C0D6E74F477 /* ZKCategories */ = {
 			isa = PBXGroup;
 			children = (
@@ -614,6 +623,21 @@
 			);
 			name = ZKCategories;
 			path = ZKCategories;
+			sourceTree = "<group>";
+		};
+		B4E1035792906E57D11D01875CEFA59D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FCFE886D2A6CC663A45EA7377FD49FC /* ZKIDCardCamera.modulemap */,
+				7DAD9D1CA5805D2D8BA46DD0653B5E00 /* ZKIDCardCamera-dummy.m */,
+				A86C8D61E3222DD02BF07655AF4AD9FC /* ZKIDCardCamera-Info.plist */,
+				72F61CA579CE192ED3E04ACDD2ECB4C3 /* ZKIDCardCamera-prefix.pch */,
+				5E5F417267858D8AD3F23AA74EF5FA37 /* ZKIDCardCamera-umbrella.h */,
+				D6DB9D639F43C3B0220E8C467547E192 /* ZKIDCardCamera.debug.xcconfig */,
+				54ED4AAD7033E7EFB7324D9FA49C84C5 /* ZKIDCardCamera.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZKIDCardCamera";
 			sourceTree = "<group>";
 		};
 		C65BA9B45BA2511D127122CFA0563787 /* Products */ = {
@@ -632,7 +656,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DF24E64E2327DF93D3C2825B3DBEE14B /* Development Pods */,
+				EF049C9195F19FF9F6CC131EBE651DF6 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				1D1F16A5A758A6E233581546D4AF00F4 /* Pods */,
 				C65BA9B45BA2511D127122CFA0563787 /* Products */,
@@ -647,14 +671,6 @@
 				EE57F98AFBDE5D18E7719A6642743BE1 /* Pods-ZKIDCardCamera_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		DF24E64E2327DF93D3C2825B3DBEE14B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FA3B9CEEA05D7C08C066B2F59B058CFA /* ZKIDCardCamera */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		EE57F98AFBDE5D18E7719A6642743BE1 /* Pods-ZKIDCardCamera_Tests */ = {
@@ -673,6 +689,14 @@
 			path = "Target Support Files/Pods-ZKIDCardCamera_Tests";
 			sourceTree = "<group>";
 		};
+		EF049C9195F19FF9F6CC131EBE651DF6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C62D14C9DC8562146F751A7D20F80F8 /* ZKIDCardCamera */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		F5A0392E97107CEFC811B24460177945 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -688,21 +712,6 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		FA3B9CEEA05D7C08C066B2F59B058CFA /* ZKIDCardCamera */ = {
-			isa = PBXGroup;
-			children = (
-				51CA4517B4B7B830BD0EF265C44525E5 /* ZKIDCardCamera.bundle */,
-				B7E44D917AADFCEC1FAA559412E0904A /* ZKIDCardCameraController.h */,
-				5437CD54151B40084F934DDAF27CA3B4 /* ZKIDCardCameraController.m */,
-				9478A050854984ACFB1250EBDBB09EAA /* ZKIDCardFloatingView.h */,
-				907B8CD940AADDF84F9251B055D398FE /* ZKIDCardFloatingView.m */,
-				2CE312A322B78A1E8487997072E3A13F /* Pod */,
-				01F3DB81F4F14EFC6124107A204E2AD1 /* Support Files */,
-			);
-			name = ZKIDCardCamera;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -711,6 +720,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				78464F566AC98C76DDC11B9EC9DCCBF1 /* Pods-ZKIDCardCamera_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179C93D511EC659000509CA7379B1EB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627963C450E40B3C9377F5B8C437DE54 /* ZKIDCardCamera.h in Headers */,
+				FC0485A755BD5C741A6F0979A4EF887F /* ZKIDCardCamera-umbrella.h in Headers */,
+				0DE63318E4EFED104982996E013AB0BD /* ZKIDCardCameraController.h in Headers */,
+				9363A55FC67B62B7A06D8D0DEC78659C /* ZKIDCardFloatingView.h in Headers */,
+				130A7FCD092BB61594276AA87038B2D7 /* ZKIDTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -797,16 +818,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8B709E2F172D03C43A8329B05E838F5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F907936F7E991F47C05557879084082 /* ZKIDCardCamera-umbrella.h in Headers */,
-				8C593962313BA8D4F2FB22431FA2BD1E /* ZKIDCardCameraController.h in Headers */,
-				2FC3F753B7FBCE63D498B0AA7810C8B6 /* ZKIDCardFloatingView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -858,7 +869,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FF37E06BBF9FE917D30764862623337D /* PBXTargetDependency */,
+				409ECA8B5B69A342620FBD703F9D2505 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZKIDCardCamera_Tests";
 			productName = Pods_ZKIDCardCamera_Tests;
@@ -867,18 +878,18 @@
 		};
 		C2EE3F1D80822A16AFD6E66C21C0C29E /* ZKIDCardCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E466019D652E448F632CA2388C9C4FB4 /* Build configuration list for PBXNativeTarget "ZKIDCardCamera" */;
+			buildConfigurationList = 1B1F747FC9427D6600A183385A1188CC /* Build configuration list for PBXNativeTarget "ZKIDCardCamera" */;
 			buildPhases = (
-				E8B709E2F172D03C43A8329B05E838F5 /* Headers */,
-				A095658286BAEF4728C3986F0B7AEBA1 /* Sources */,
-				8ADEAC7C80EE7A43EC4DC76C38A70A12 /* Frameworks */,
-				B5BCF7BDE126887D2F8A16471D0CAB7B /* Resources */,
+				179C93D511EC659000509CA7379B1EB3 /* Headers */,
+				A9714674F3EE9029D56E40B051F50B85 /* Sources */,
+				036E811D626906F0523CB50A3275FFF3 /* Frameworks */,
+				5102984EAC4138E3073EEA69018FB873 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5981D5FBBAD8544CCFA32FCAC54816A /* PBXTargetDependency */,
-				94550D43502873E8B46CE0D29733A2E2 /* PBXTargetDependency */,
+				2F8F1BA71712A92D1A48D098E8722513 /* PBXTargetDependency */,
+				57D56EDC5BCE0A7C7CD6AA8DDD9B4F4E /* PBXTargetDependency */,
 			);
 			name = ZKIDCardCamera;
 			productName = ZKIDCardCamera;
@@ -897,9 +908,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				333390924E6EA1BB8A9AA7B9D1C6EBF6 /* PBXTargetDependency */,
-				BA8B8579828C25D77114CE3C529EE741 /* PBXTargetDependency */,
-				D223400E7C31B3CF5AE4FF08C0EA6F8B /* PBXTargetDependency */,
+				1A5643B6412EAEF98F9705C2FC9F8562 /* PBXTargetDependency */,
+				878C5B2E6D08129ED2348A6787ADE263 /* PBXTargetDependency */,
+				E0B7B5CB73AB8AED177732308C56E7A0 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZKIDCardCamera_Example";
 			productName = Pods_ZKIDCardCamera_Example;
@@ -912,8 +923,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -952,6 +963,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5102984EAC4138E3073EEA69018FB873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3B34E63C807967C252EA2C17BA7B98 /* ZKIDCardCamera.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		728FA5A7246A8C0379C4F08822DA5968 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -963,14 +982,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5BCF7BDE126887D2F8A16471D0CAB7B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D05C38A36107C61D0C99444DE093F35E /* ZKIDCardCamera.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1052,13 +1063,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A095658286BAEF4728C3986F0B7AEBA1 /* Sources */ = {
+		A9714674F3EE9029D56E40B051F50B85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C932836C47AD1B8F0F7C10144A083D34 /* ZKIDCardCamera-dummy.m in Sources */,
-				E364C9BC845BD9CE52529A583A6CB632 /* ZKIDCardCameraController.m in Sources */,
-				0982E4306DA5985EA5E9F02075A3B62C /* ZKIDCardFloatingView.m in Sources */,
+				3C7D4742EF37A8E5075084F31BDD0A81 /* ZKIDCardCamera-dummy.m in Sources */,
+				0CA3AC4348082CC6A0143B97995F05BC /* ZKIDCardCameraController.m in Sources */,
+				8AA92A78B037B22A26437C251D3B319E /* ZKIDCardFloatingView.m in Sources */,
+				EB8F085601F0B5D5E546A44DA5D2154A /* ZKIDTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1073,41 +1085,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		333390924E6EA1BB8A9AA7B9D1C6EBF6 /* PBXTargetDependency */ = {
+		1A5643B6412EAEF98F9705C2FC9F8562 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 1E95C7BC0BE941D7EB62D0F841D76D1C /* PBXContainerItemProxy */;
+			targetProxy = 9F51C1F70F11B42ACC4D843C3770AB61 /* PBXContainerItemProxy */;
 		};
-		94550D43502873E8B46CE0D29733A2E2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZKCategories;
-			target = 286032C434A36E28AA586459EEC04FEA /* ZKCategories */;
-			targetProxy = C6EA7219B752E3938E00335DC66049F2 /* PBXContainerItemProxy */;
-		};
-		B5981D5FBBAD8544CCFA32FCAC54816A /* PBXTargetDependency */ = {
+		2F8F1BA71712A92D1A48D098E8722513 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 222D0B4B1DC19A49D272853581254C24 /* PBXContainerItemProxy */;
+			targetProxy = 31AF4F27E741FCCBCE3C056AFF8F3EFB /* PBXContainerItemProxy */;
 		};
-		BA8B8579828C25D77114CE3C529EE741 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZKCategories;
-			target = 286032C434A36E28AA586459EEC04FEA /* ZKCategories */;
-			targetProxy = 2CF9434609858D6D0E24EB314C6AB95A /* PBXContainerItemProxy */;
-		};
-		D223400E7C31B3CF5AE4FF08C0EA6F8B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZKIDCardCamera;
-			target = C2EE3F1D80822A16AFD6E66C21C0C29E /* ZKIDCardCamera */;
-			targetProxy = D1705407C014705EE1FF0F693AE86392 /* PBXContainerItemProxy */;
-		};
-		FF37E06BBF9FE917D30764862623337D /* PBXTargetDependency */ = {
+		409ECA8B5B69A342620FBD703F9D2505 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZKIDCardCamera_Example";
 			target = D03263F90CDA165E4C747E0F5D4FDA72 /* Pods-ZKIDCardCamera_Example */;
-			targetProxy = 4540E61B7EDB501FE75B517228AD050F /* PBXContainerItemProxy */;
+			targetProxy = 40DE9718DF1E90441F93990F1413E307 /* PBXContainerItemProxy */;
+		};
+		57D56EDC5BCE0A7C7CD6AA8DDD9B4F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKCategories;
+			target = 286032C434A36E28AA586459EEC04FEA /* ZKCategories */;
+			targetProxy = F7E5FAFBFBECB7A8DDFE27E098E48E6C /* PBXContainerItemProxy */;
+		};
+		878C5B2E6D08129ED2348A6787ADE263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKCategories;
+			target = 286032C434A36E28AA586459EEC04FEA /* ZKCategories */;
+			targetProxy = 7344BB2FEF5EC86EFAABE0F63CE3E707 /* PBXContainerItemProxy */;
+		};
+		E0B7B5CB73AB8AED177732308C56E7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKIDCardCamera;
+			target = C2EE3F1D80822A16AFD6E66C21C0C29E /* ZKIDCardCamera */;
+			targetProxy = C8F5622B4204FF51F9B586C4FE25954B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1456,6 +1468,35 @@
 			};
 			name = Release;
 		};
+		926611F92796DDE2B5D6502A5A7B28D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6DB9D639F43C3B0220E8C467547E192 /* ZKIDCardCamera.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZKIDCardCamera/ZKIDCardCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKIDCardCamera/ZKIDCardCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZKIDCardCamera/ZKIDCardCamera.modulemap";
+				PRODUCT_MODULE_NAME = ZKIDCardCamera;
+				PRODUCT_NAME = ZKIDCardCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		95DB7A60CC581C3B46E6044FD8CBE256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0DCE4583069F406DF247434352AFE0E /* Pods-ZKIDCardCamera_Example.debug.xcconfig */;
@@ -1488,9 +1529,9 @@
 			};
 			name = Debug;
 		};
-		A6D95F57DF5CE256496040E38D2AFE93 /* Release */ = {
+		C04DA2C8A751B767595E98A1F3FA9448 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A63783201205833AA080CED2D55B09F7 /* ZKIDCardCamera.release.xcconfig */;
+			baseConfigurationReference = 54ED4AAD7033E7EFB7324D9FA49C84C5 /* ZKIDCardCamera.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1518,35 +1559,6 @@
 			};
 			name = Release;
 		};
-		AAFEC89C448E480E393AD19B24D76469 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B249C07FA30168C877BFAAA52806E9E0 /* ZKIDCardCamera.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZKIDCardCamera/ZKIDCardCamera-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZKIDCardCamera/ZKIDCardCamera-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZKIDCardCamera/ZKIDCardCamera.modulemap";
-				PRODUCT_MODULE_NAME = ZKIDCardCamera;
-				PRODUCT_NAME = ZKIDCardCamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1555,6 +1567,15 @@
 			buildConfigurations = (
 				574336E93FEE5E80463961C3B5210418 /* Debug */,
 				83A1CD5A0D744E6C5C16EB552F459A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B1F747FC9427D6600A183385A1188CC /* Build configuration list for PBXNativeTarget "ZKIDCardCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926611F92796DDE2B5D6502A5A7B28D3 /* Debug */,
+				C04DA2C8A751B767595E98A1F3FA9448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1591,15 +1612,6 @@
 			buildConfigurations = (
 				61054C81D2AA21059BF0EB30EEB31BE7 /* Debug */,
 				30330AAB7BD0831FC2F04EF20E07A7F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E466019D652E448F632CA2388C9C4FB4 /* Build configuration list for PBXNativeTarget "ZKIDCardCamera" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AAFEC89C448E480E393AD19B24D76469 /* Debug */,
-				A6D95F57DF5CE256496040E38D2AFE93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

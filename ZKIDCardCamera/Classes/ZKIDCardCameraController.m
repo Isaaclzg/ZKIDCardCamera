@@ -6,10 +6,8 @@
 //
 
 #import "ZKIDCardCameraController.h"
-#import <AVFoundation/AVFoundation.h>
-#import <Masonry/Masonry.h>
-#import <ZKCategories/ZKCategories.h>
 #import "ZKIDCardFloatingView.h"
+#import "ZKIDCardCamera.h"
 
 @interface ZKIDCardCameraController () <AVCaptureMetadataOutputObjectsDelegate>
 
@@ -187,8 +185,27 @@
 }
 
 - (void)usePhoto {
-    if ([self.delegate respondsToSelector:@selector(cameraDidFinishShootWithCameraImage:)]) {
-        [self.delegate cameraDidFinishShootWithCameraImage:self.image];
+    CGImageRef cgRef = self.image.CGImage;
+    CGFloat x = 0;
+    CGFloat y = 0;
+    CGFloat width = self.image.size.height;
+    CGFloat height = self.image.size.width;
+    CGImageRef imageRef = CGImageCreateWithImageInRect(cgRef, CGRectMake(x, y, width, height));
+    UIImage *image = [UIImage imageWithCGImage:imageRef];
+    
+    NSData *imageData = UIImagePNGRepresentation(image);
+    NSUInteger imageSize = [imageData length];
+    NSLog(@"%ldB",imageSize);
+    NSLog(@"%fKB",imageSize / 1024.0);
+    NSLog(@"%fMB",imageSize / 1024.0 / 1024);
+    if (self.limitSize <= 0 || imageSize <= self.limitSize) {
+        if ([self.delegate respondsToSelector:@selector(cameraDidFinishShootWithCameraImage:)]) {
+            [self.delegate cameraDidFinishShootWithCameraImage:image];
+        }
+    }else {
+        if ([self.delegate respondsToSelector:@selector(imageNeedLimit:)]) {
+            [self.delegate imageNeedLimit:image];
+        }
     }
     [self dismissViewControllerAnimated:YES completion:nil];
 }
@@ -207,23 +224,25 @@
         __strong __typeof(weakSelf) strongSelf = weakSelf;
         NSData * imageData = [AVCaptureStillImageOutput jpegStillImageNSDataRepresentation:imageDataSampleBuffer];
         UIImage *image = [UIImage imageWithData:imageData];
-        strongSelf.image = image;
+        
         // 停止会话
         [strongSelf.session stopRunning];
         
         CGSize size = [self.IDCardFloatingView getImageSize];
-
+        
         CGFloat imageViewX = ([UIScreen mainScreen].bounds.size.width - size.width) / 2.0f;
         CGFloat imageViewY = ([UIScreen mainScreen].bounds.size.height - size.height) / 2.0f;
-        CGFloat imageViewW = size.width;
-        CGFloat imageViewH = size.height;
-        
-        strongSelf.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(imageViewX, imageViewY, imageViewW, imageViewH)];
+        strongSelf.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(imageViewX, imageViewY, size.width, size.height)];
 
         // strongSelf.imageView = [[UIImageView alloc] initWithFrame:strongSelf.previewLayer.frame];
         [strongSelf.view insertSubview:self.imageView belowSubview:sender];
         strongSelf.imageView.layer.masksToBounds = YES;
-        strongSelf.imageView.image = self.image;
+        strongSelf.imageView.contentMode = UIViewContentModeScaleAspectFill;
+        strongSelf.imageView.image = image;
+        
+      
+        strongSelf.image = image;
+        
         
         // 隐藏切换取消闪光灯按钮
         strongSelf.cancleButton.hidden = YES;
@@ -338,8 +357,16 @@
     
     // 使用self.session，初始化预览层，self.session负责驱动input进行信息的采集，layer负责把图像渲染显示
     self.previewLayer = [[AVCaptureVideoPreviewLayer alloc] initWithSession:self.session];
-    self.previewLayer.frame = (CGRect){CGPointZero, [UIScreen.mainScreen currentBounds].size};
+    
+    // [UIScreen.mainScreen currentBounds].size
+    CGFloat width = iPhone5or5cor5sorSE ? 240 : (iPhone6or6sor7 ? 240 : 270);
+    CGFloat height = width * 1.574;
+    CGFloat x = ([UIScreen mainScreen].bounds.size.width - width) / 2.0f;
+    CGFloat y = ([UIScreen mainScreen].bounds.size.height - height) / 2.0f;
+    
+    self.previewLayer.frame = (CGRect){CGPointMake(x, y), CGSizeMake(width, height)};
     self.previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+    self.previewLayer.cornerRadius = 15.0f;
     [self.view.layer addSublayer:self.previewLayer];
     
     dispatch_queue_t backgroundQueue = dispatch_queue_create("com.isaac.zkid", DISPATCH_QUEUE_CONCURRENT);
