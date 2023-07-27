@@ -48,14 +48,13 @@
 }
 
 #pragma mark - ZKIDCardCameraControllerDelegate
-- (void)cameraDidFinishShootWithCameraImage:(UIImage *)image {
+- (void)cameraDidFinishShootWithCameraImage:(UIImage *)image viewController:(UIViewController *)UIViewController isFront:(BOOL)isFront {
     self.imageView.image = image;
 }
 
-- (void)imageNeedLimit:(UIImage *)image {
-    NSLog(@"超过限制大小1MB");
-    NSData *data = [ZKIDTools compressToDataWithImage:image showSize:image.size fileSize:1024];
-    NSLog(@"文件大小：%fMB",data.length / 1024 / 1024.0);
+- (void)imageNeedLimit:(UIImage *)image viewController:(UIViewController *)UIViewController isFront:(BOOL)isFront {
+    UIImage *resultImage = [ZKIDTools compressToImageWithImage:image showSize:image.size fileSize:1024];
+    self.imageView.image = resultImage;
 }
 
 @end

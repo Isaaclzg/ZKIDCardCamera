@@ -18,14 +18,19 @@ typedef NS_ENUM(NSUInteger, ZKIDCardType) {
 
 @required
 
-/// 获取身份证照片，当图片大小超过限制，则会在imageNeedLimit返回
-/// - Parameter image: 图片
-- (void)cameraDidFinishShootWithCameraImage:(UIImage *)image;
-
+/// 获取身份证照片，当图片大小超过限制，则无效，会在imageNeedLimit返回
+/// - Parameters:
+///   - image: 图片
+///   - UIViewController: 当前控制器
+///   - isFront: 是否是正面
+- (void)cameraDidFinishShootWithCameraImage:(UIImage *)image viewController:(UIViewController *)UIViewController isFront:(BOOL)isFront;
 
 /// 获取身份证照片，当图片大小超过限制生效，考虑UI交互，ZKIDTools仅提供方法
-/// - Parameter image: 图片
-- (void)imageNeedLimit:(UIImage *)image;
+/// - Parameters:
+///   - image: 图片
+///   - UIViewController: 当前控制器
+///   - isFront: 是否是正面
+- (void)imageNeedLimit:(UIImage *)image viewController:(UIViewController *)UIViewController isFront:(BOOL)isFront;
 
 @end
 

@@ -195,16 +195,15 @@
     
     NSData *imageData = UIImagePNGRepresentation(image);
     NSUInteger imageSize = [imageData length];
-    NSLog(@"%ldB",imageSize);
-    NSLog(@"%fKB",imageSize / 1024.0);
-    NSLog(@"%fMB",imageSize / 1024.0 / 1024);
+
+    BOOL isFront = self.type == ZKIDCardTypeFront ? YES : NO;
     if (self.limitSize <= 0 || imageSize <= self.limitSize) {
-        if ([self.delegate respondsToSelector:@selector(cameraDidFinishShootWithCameraImage:)]) {
-            [self.delegate cameraDidFinishShootWithCameraImage:image];
+        if ([self.delegate respondsToSelector:@selector(cameraDidFinishShootWithCameraImage:viewController:isFront:)]) {
+            [self.delegate cameraDidFinishShootWithCameraImage:image viewController:self isFront:isFront];
         }
     }else {
-        if ([self.delegate respondsToSelector:@selector(imageNeedLimit:)]) {
-            [self.delegate imageNeedLimit:image];
+        if ([self.delegate respondsToSelector:@selector(imageNeedLimit:viewController:isFront:)]) {
+            [self.delegate imageNeedLimit:image viewController:self isFront:isFront];
         }
     }
     [self dismissViewControllerAnimated:YES completion:nil];
