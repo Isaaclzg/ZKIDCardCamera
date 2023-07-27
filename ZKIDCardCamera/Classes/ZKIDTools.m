@@ -81,7 +81,7 @@
 + (void)compressToDataAtBackgroundWithImage:(UIImage *)oldImage
                                    showSize:(CGSize)showSize
                                    fileSize:(NSInteger)fileSize
-                                      block:(DataBlock)DataBlock {
+                                      block:(ZKIDDataBlock)DataBlock {
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         NSData *newIMGData = [self compressToDataWithImage:oldImage showSize:showSize fileSize:fileSize];
         DataBlock(newIMGData);
@@ -94,7 +94,7 @@
 + (void)compressToImageAtBackgroundWithImage:(UIImage *)oldImage
                                    showSize:(CGSize)showSize
                                    fileSize:(NSInteger)fileSize
-                                      block:(ImgBlock)ImgBlock {
+                                      block:(ZKIDImgBlock)ImgBlock {
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         UIImage *newIMG = [self compressToImageWithImage:oldImage showSize:showSize fileSize:fileSize];
         ImgBlock(newIMG);

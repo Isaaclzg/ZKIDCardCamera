@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void(^ImgBlock) (UIImage *resultImage);
-typedef void(^DataBlock)(NSData  *resultData);
+typedef void(^ZKIDImgBlock) (UIImage *resultImage);
+typedef void(^ZKIDDataBlock)(NSData *resultData);
 
 @interface ZKIDTools : NSObject
 
